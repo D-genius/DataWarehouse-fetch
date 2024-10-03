@@ -13,7 +13,7 @@ myHeader.append("Access-Control-Allow-Origin", "https://hiv-dashboards.nascop.or
 // myHeader.append("Access-Control-Allow-Headers", "Content-Type, Authorization");
 // myHeader.append("Access-Control-Allow-Credentials", "true");
 
-const yearNow = new Date().getFullYear() - 1;
+const yearNow = new Date().getFullYear() -1;
 const raw = `year=${yearNow}&county=`;
 const requestOptions = {
   method: "POST",
