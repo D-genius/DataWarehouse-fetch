@@ -1,2 +1,2 @@
 # DataWarehouse-fetch
-Simple script to pull HIV indicators from external API Endpoint
+Simple call to pull HIV indicators from external API Endpoint, with external proxy server
